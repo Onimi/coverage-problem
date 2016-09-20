@@ -1,0 +1,30 @@
+table {
+    /*width: 2193px;*/
+}
+thead, .range-cell {
+    background: #ddd;
+} 
+th, td {
+  width: 22px;
+  height: 25px;
+  border: 1px solid #ddd;
+  padding: 0;
+}
+.range-cell {
+    width: 70px;
+}
+.emptyness {
+    background-color: #fff;
+}
+.segment {
+    background-color: green;
+}
+.chosen {
+    background-color: greenyellow;
+}
+.coverage-part {
+    background-color: orange;
+}
+.result {
+    text-align: right;
+}

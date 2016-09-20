@@ -1,0 +1,5 @@
+127.0.0.1 - - [23/Aug/2016:14:17:09 +0300] "GET / HTTP/1.1" 200 1031 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+127.0.0.1 - - [23/Aug/2016:14:17:09 +0300] "GET /css/styles.css HTTP/1.1" 200 409 "http://coverage.local/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+127.0.0.1 - - [23/Aug/2016:14:17:09 +0300] "GET /js/native/lib.js HTTP/1.1" 200 966 "http://coverage.local/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+127.0.0.1 - - [23/Aug/2016:14:17:09 +0300] "GET /js/native/main.js HTTP/1.1" 200 888 "http://coverage.local/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+127.0.0.1 - - [23/Aug/2016:14:17:09 +0300] "GET /js/native/coverage.js HTTP/1.1" 200 7820 "http://coverage.local/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"

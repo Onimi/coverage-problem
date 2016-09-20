@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Coverage Problem</title>
+        <link href='css/styles.css' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="table-wrapper">
+            <table cellpadding="0" cellspacing="0">
+                <thead class="table-header">
+                    <tr>
+                        <th class="range-cell">Range</th> 
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody class="table-body"></tbody>
+                <tfoot class="table-footer">
+                    <tr>
+                        <td class="range-cell"></td>
+                        <td></td>
+                    </tr>
+                    <tr id="coverage-row">
+                        <td class="range-cell">Coverage</td>
+                        <td></td>
+                    </tr>
+                    <tr id="summary-row">
+                        <td class="range-cell">Summary</td>
+                        <td class="result">0</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div class="button-wrapper">
+            <button class="sort" data-by="length" data-way="asc">
+                <span>Sort by length - </span>
+                <span>ASC</span>
+            </button>
+            <button class="sort" data-by="beginning" data-way="asc">
+                <span>Sort by beginning - </span>
+                <span>ASC</span>
+            </button>
+            <button class="sort" data-by="ending" data-way="asc">
+                <span>Sort by ending - </span>
+                <span>ASC</span>
+            </button>
+            <button class="sort" data-by="center" data-way="asc">
+                <span>Sort by center - </span>
+                <span>ASC</span>
+            </button>
+            <button class="sort" data-by="beginningAndLength" data-way="asc">
+                <span>Sort by beginning & length - </span>
+                <span>ASC</span>
+            </button>
+            <button class="sort" data-by="endingAndLength" data-way="asc">
+                <span>Sort by ending & length - </span>
+                <span>ASC</span>
+            </button>
+            <button class="sort" data-by="centerAndLength" data-way="asc">
+                <span>Sort by center & length - </span>
+                <span>ASC</span>
+            </button>
+            <button id="new-gen">Generate new sample</button>
+            <button id="find-solution">Find a solution</button>
+        </div>
+        <!-- Use native javascript -->
+        <script type="text/javascript" src="js/native/lib.js"></script>
+        <!--<script type="text/javascript" src="/js/native/coverage.js"></script>-->
+        <script type="text/javascript" src="js/native/coverage-alt.js"></script>
+<!--        <script type="text/javascript" src="js/native/coverage-searcher-dumb.js"></script>-->
+        <script type="text/javascript" src="js/native/searcher-dumb.js"></script>
+        <script type="text/javascript" src="js/native/main.js"></script>
+        <!-- Use jQuery -->
+<!--        <script type="text/javascript" src="/js/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="/js/jquerty/main.js"></script>-->
+    </body>
+</html>
